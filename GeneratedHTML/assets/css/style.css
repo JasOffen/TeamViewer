@@ -1,0 +1,29 @@
+body{
+    background-color: whitesmoke;
+}
+header{
+    display: flex;
+    background-color: grey;
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+
+.employeeType{
+    display: flex;
+    justify-content: center;
+    background-color:palevioletred;
+}
+.managers, .employees, .interns{
+    background-color: grey;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    margin-top:10px;
+    border-radius: 5px;
+    flex-wrap: nowrap;
+}
+
+#employeeBox{
+    display: flex;
+    justify-content: space-around;
+}
